@@ -12,6 +12,8 @@ The model tested here is from case 2 in (Crameri  et al., 2012). 4 cases are tes
 (2) with water density = 1000 kg/m^3
 (3) air density and remove the reference density 
 (4) water density and remove the reference density
+(5) denser density = 3000 kg/m^3
+(6) gradually changed density ( 3300 - 1 kg/m^3 within H = 50 km)
 
 It turns out removing reference density can get the same results as not removing ones if doing the appropriate scaling. And comparing with air density, the water density model doesn't improve the stability a lot and will have a higher topography.
 
