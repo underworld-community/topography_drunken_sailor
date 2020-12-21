@@ -18,7 +18,7 @@ The model tested here is from case 2 in (Crameri  et al., 2012). 4 cases are tes
 It turns out removing reference density can get the same results as not removing ones if doing the appropriate scaling. And comparing with air density, the water density model doesn't improve the stability a lot and will have a higher topography.
 
 <img src="./pic/model_setup.png" width = "500"  align=center />
-<img src="./pic/Topography at 4 Ma.png" width = "600"  align=center />
+<img src="./pic/Topography at 4 Ma_air_water.png" width = "600"  align=center />
 <img src="./pic/Symmetry of the topography at 4 Ma.png" width = "800"  align=center />
 
 Related issue
