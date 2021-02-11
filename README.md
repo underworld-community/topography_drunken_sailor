@@ -7,6 +7,9 @@ This instability is arisen from the large density contrast typical at a free sur
 
 Test Model
 -----
+
+Case 1： stick-air model
+
 The model tested here is from case 2 in (Crameri  et al., 2012). 4 cases are tested and used the same time interval (fixed to 5k years), solver ("mumps" with penalty = 1e6).
 (1) "stick air" with air density = 0 kg/m^3 
 (2) with water density = 1000 kg/m^3
@@ -21,6 +24,12 @@ It turns out removing reference density can get the same results as not removing
 <img src="./pic/Topography at 4 Ma_air_water.png" width = "600"  align=center />
 <img src="./pic/Symmetry of the topography at 4 Ma.png" width = "800"  align=center />
 
+
+Case 2： Rayleigh-Taylor instability
+The model tested here is from case 2 in (Kaus et al., 2010). 
+
+<img src="./pic/kaus2010_RT_image0000.png" width = "500"  align=center />
+
 Related issue
 ----
 [Issue #363 in uw2](https://github.com/underworldcode/underworld2/issues/363)
@@ -29,6 +38,7 @@ Related issue
 Solution (maybe)
 ----
 - Free surface stabilization approach (FSSA) from (Kaus et al., 2010)
+Related underworld branch: [fssa-algo](https://github.com/underworldcode/underworld2/tree/jgiordani/fssa-algo)
 
 Reference
 -----
