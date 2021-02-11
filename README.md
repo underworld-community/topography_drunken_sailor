@@ -24,8 +24,8 @@ It turns out removing reference density can get the same results as not removing
 <img src="./pic/Topography at 4 Ma_air_water.png" width = "600"  align=center />
 <img src="./pic/Symmetry of the topography at 4 Ma.png" width = "800"  align=center />
 
-
 Case 2： Rayleigh-Taylor instability
+
 The model tested here is from case 2 in (Kaus et al., 2010). 
 
 <img src="./pic/kaus2010_RT_image0000.png" width = "500"  align=center />
@@ -33,12 +33,15 @@ The model tested here is from case 2 in (Kaus et al., 2010).
 Related issue
 ----
 [Issue #363 in uw2](https://github.com/underworldcode/underworld2/issues/363)
+
 [Issue #207 in uwg](https://github.com/underworldcode/UWGeodynamics/issues/207)
 
 Solution (maybe)
 ----
 - Free surface stabilization approach (FSSA) from (Kaus et al., 2010)
-Related underworld branch: [fssa-algo](https://github.com/underworldcode/underworld2/tree/jgiordani/fssa-algo)
+
+  Related underworld branch: [fssa-algo]
+(https://github.com/underworldcode/underworld2/tree/jgiordani/fssa-algo)
 
 Reference
 -----
