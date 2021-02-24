@@ -38,7 +38,7 @@ Related issue
 
 Solution (maybe)
 ----
-- Free surface stabilization approach (FSSA) from (Kaus et al., 2010)
+- Free surface stabilization approach (FSSA) from (Kaus et al., 2010) [see this (?!?)] (https://bitbucket.org/bkaus/mvep2/src/master/SOURCE_CODE/Compute_FSSA_vec.m)
 
   Related underworld branch: [fssa-algo]
 (https://github.com/underworldcode/underworld2/tree/jgiordani/fssa-algo)
