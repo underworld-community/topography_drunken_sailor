@@ -30,6 +30,15 @@ The model tested here is from case 2 in (Kaus et al., 2010).
 
 <img src="./pic/kaus2010_RT_image0000.png" width = "500"  align=center />
 
+
+Case 3： Convergence model 
+
+The model tested here is a convergence model modified from (Erdős, Huismans & van der Beek, 2015).
+
+Which added a stick air layer and the in-out flow is balance by the velocity of the rock part.
+
+<img src="./pic/case3_Modelsetup.png" width = "500"  align=center />
+
 Related issue
 ----
 [Issue #363 in uw2](https://github.com/underworldcode/underworld2/issues/363)
@@ -48,3 +57,4 @@ Reference
 - Crameri, F., Schmeling, H., Golabek, G. J., Duretz, T., Orendt, R., Buiter, S. J. H., ... & Tackley, P. J. (2012). A comparison of numerical surface topography calculations in geodynamic modelling: an evaluation of the ‘sticky air’method. Geophysical Journal International, 189(1), 38-54.
 - Kaus, B. J., Mühlhaus, H., & May, D. A. (2010). A stabilization algorithm for geodynamic numerical simulations with a free surface. Physics of the Earth and Planetary Interiors, 181(1-2), 12-20.
 - Rose, I., Buffett, B., & Heister, T. (2017). Stability and accuracy of free surface time integration in viscous flows. Physics of the Earth and Planetary Interiors, 262, 90-100.
+- Erdős, Z., Huismans, R. S., & van der Beek, P. (2015). First‐order control of syntectonic sedimentation on crustal‐scale structure of mountain belts. Journal of Geophysical Research: Solid Earth, 120(7), 5362-5377.
