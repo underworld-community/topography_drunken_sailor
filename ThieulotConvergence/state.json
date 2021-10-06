@@ -1,0 +1,177 @@
+{
+  "colourmaps": [
+    {
+      "colours": [
+        {
+          "colour": "rgba(40,143,208,1)",
+          "position": 0.0
+        },
+        {
+          "colour": "rgba(251,251,159,1)",
+          "position": 0.5
+        },
+        {
+          "colour": "rgba(255,117,32,1)",
+          "position": 1.0
+        }
+      ],
+      "name": "trisurface-default"
+    },
+    {
+      "colours": [
+        {
+          "colour": "rgba(59,76,192,1)",
+          "position": 0.0
+        },
+        {
+          "colour": "rgba(115,150,245,1)",
+          "position": 0.16666667163372
+        },
+        {
+          "colour": "rgba(176,203,252,1)",
+          "position": 0.333333343267441
+        },
+        {
+          "colour": "rgba(220,220,220,1)",
+          "position": 0.5
+        },
+        {
+          "colour": "rgba(246,191,165,1)",
+          "position": 0.666666686534882
+        },
+        {
+          "colour": "rgba(234,123,96,1)",
+          "position": 0.833333373069763
+        },
+        {
+          "colour": "rgba(181,11,39,1)",
+          "position": 1.0
+        }
+      ],
+      "name": "pstrain-default"
+    }
+  ],
+  "objects": [
+    {
+      "colourmap": 0,
+      "data": {
+        "default": {
+          "label": "default",
+          "maximum": 1.58682775497437,
+          "minimum": 0.0,
+          "size": 58610
+        }
+      },
+      "geometry": "triangles",
+      "max": [
+        192.960006713867,
+        288.960021972656,
+        6.89255857467651
+      ],
+      "min": [
+        -0.960000038146973,
+        -0.960000038146973,
+        3.63444590568542
+      ],
+      "name": "trisurface",
+      "triangles": true,
+      "visible": true
+    },
+    {
+      "colourbar": true,
+      "colourmap": 0,
+      "data": null,
+      "name": "trisurface_colourbar",
+      "visible": true
+    },
+    {
+      "arrowhead": 5,
+      "colour": "#55554d",
+      "data": null,
+      "geometry": "vectors",
+      "name": "velocity",
+      "scaling": 18,
+      "triangles": true,
+      "visible": true,
+      "zmax": 0.6
+    },
+    {
+      "colourmap": 1,
+      "data": {
+        "pstrain": {
+          "label": "pstrain",
+          "maximum": 2.42802357673645,
+          "minimum": 0.0,
+          "size": 218082
+        }
+      },
+      "geometry": "points",
+      "name": "pstrain",
+      "points": true,
+      "visible": true
+    },
+    {
+      "colourbar": true,
+      "colourmap": 1,
+      "data": null,
+      "name": "pstrain_colourbar",
+      "visible": true
+    }
+  ],
+  "properties": {
+    "background": "rgba(81,87,110,1)",
+    "pointsubsample": 2
+  },
+  "reload": false,
+  "views": [
+    {
+      "antialias": true,
+      "axis": true,
+      "axislength": 0.1,
+      "border": false,
+      "bordercolour": "grey",
+      "bounds": {
+        "max": [
+          192.960006713867,
+          288.960021972656,
+          22.0
+        ],
+        "min": [
+          -0.960000038146973,
+          -0.960000038146973,
+          -28.0
+        ]
+      },
+      "fillborder": false,
+      "focus": [
+        96.0000076293945,
+        144.0,
+        -3.0
+      ],
+      "fontscale": 1.0,
+      "margin": 20,
+      "rotate": [
+        -0.62527871131897,
+        -0.0552990511059761,
+        -0.0777046531438828,
+        0.774547636508942
+      ],
+      "rulers": false,
+      "rulerticks": 5,
+      "rulerwidth": 1.5,
+      "scale": [
+        1.0,
+        1.0,
+        3.0
+      ],
+      "timestep": false,
+      "title": "",
+      "translate": [
+        0.0,
+        0.0,
+        -352.361450195312
+      ],
+      "zoomstep": -1
+    }
+  ]
+}
